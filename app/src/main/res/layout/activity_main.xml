@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/transparent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Of Cities"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:id="@+id/recycle"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+            android:id="@+id/Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:tint="#65000000"
+            android:src="@drawable/ic_baseline_add_24"
+            android:paddingBottom="20dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
